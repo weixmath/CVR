@@ -26,13 +26,3 @@ This code is tested on Python 3.6 and Pytorch 1.8 +
 First download the arbitrary views ModelNet40 dataset and put it under `data`
 
 ``
-
-%### Command for training:
-
-%`python train.py -name view-gcn -num_models 0 -weight_decay 0.001 -num_views 20 -cnn_name resnet18`
-
-%The code is heavily borrowed from [[mvcnn-new]](https://github.com/jongchyisu/mvcnn_pytorch).
-
-%We also provide a [trained view-GCN network](https://drive.google.com/file/d/1qkltpvabunsI7frVRSEC9lP2xDP6cDj3/view?usp=sharing) achieving 97.6% accuracy on ModelNet40.
-
-%`https://drive.google.com/file/d/1qkltpvabunsI7frVRSEC9lP2xDP6cDj3/view?usp=sharing`
