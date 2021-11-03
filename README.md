@@ -26,3 +26,5 @@ This code is tested on Python 3.6 and Pytorch 1.8 +
 First download the arbitrary views ModelNet40 dataset and put it under `data`
 
 `https://drive.google.com/file/d/1RfE0aJ_IXNspVs610BkMgcWDP6FB0cYX/view?usp=sharing`
+
+#### The code is borrowed from [[OTK]](https://github.com/claying/OTK) and [[view-GCN]](https://github.com/weixmath/view-GCN).
