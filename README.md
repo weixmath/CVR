@@ -25,4 +25,4 @@ This code is tested on Python 3.6 and Pytorch 1.8 +
 
 First download the arbitrary views ModelNet40 dataset and put it under `data`
 
-``
+`https://drive.google.com/file/d/1RfE0aJ_IXNspVs610BkMgcWDP6FB0cYX/view?usp=sharing`
