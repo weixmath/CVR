@@ -121,12 +121,12 @@ class view_GCN(Model):
         self.otk_layer = OTKernel(in_dim=512, out_size=self.zdim, heads=1, max_iter=100, eps=0.05)
         self.dim = 512
         # self.encoder1 = TransformerEncoderLayer(d_model=self.dim, nhead=8)
-        self.encoder_meshed1 = EncoderLayer(d_model=512, d_k=512, d_v=512, h=8, d_ff=2048, dropout=0)
-        self.ff1 = PositionWiseFeedForward(d_model=512,d_ff=2048,dropout=0)
+        self.encoder_meshed1 = EncoderLayer(d_model=512, d_k=512, d_v=512, h=8, d_ff=2048, dropout=0.1)
+        self.ff1 = PositionWiseFeedForward(d_model=512,d_ff=2048,dropout=0.1)
         # self.encoder2 = TransformerEncoderLayer_woff(d_model=self.dim, nhead=8)
-        self.encoder_meshed2 = EncoderLayer_BN(d_model=512, d_k=512, d_v=512, h=8, d_ff=2048, dropout=0)
-        self.ff2 = PositionWiseFeedForward_BN(d_model=512,d_ff=2048,dropout=0)
-        self.ff3 = PositionWiseFeedForward_BN(d_model=512, d_ff=2048,dropout=0)
+        self.encoder_meshed2 = EncoderLayer_BN(d_model=512, d_k=512, d_v=512, h=8, d_ff=2048, dropout=0.1)
+        self.ff2 = PositionWiseFeedForward_BN(d_model=512,d_ff=2048,dropout=0.1)
+        self.ff3 = PositionWiseFeedForward_BN(d_model=512, d_ff=2048,dropout=0.1)
         self.cls = nn.Sequential(
             # nn.Linear(512, 512),
             # nn.LeakyReLU(0.2, inplace=True),
