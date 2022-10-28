@@ -27,4 +27,8 @@ First download the arbitrary views ModelNet40 dataset and put it under `data`
 
 `https://drive.google.com/file/d/1RfE0aJ_IXNspVs610BkMgcWDP6FB0cYX/view?usp=sharing`
 
+Link of arbitrary views ScanObjectNN dataset:
+
+`https://drive.google.com/file/d/10xl-S8-XlaX5187Dkv91pX4JQ5DZxeM8/view?usp=sharing`
+
 #### The code is borrowed from [[OTK]](https://github.com/claying/OTK) and [[view-GCN]](https://github.com/weixmath/view-GCN).
