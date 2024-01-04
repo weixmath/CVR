@@ -31,4 +31,8 @@ Link of arbitrary views ScanObjectNN dataset:
 
 `https://drive.google.com/file/d/10xl-S8-XlaX5187Dkv91pX4JQ5DZxeM8/view?usp=sharing`
 
+Aligned-ScanObjectNN dataset: `https://drive.google.com/file/d/1ihR6Fv88-6FOVUWdfHVMfDbUrx2eIPpR/view?usp=sharing`
+
+Rotated-ScanObjectNN dataset: `https://drive.google.com/file/d/1GCwgrfbO_uO3Qh9UNPWRCuz2yr8UyRRT/view?usp=sharing`
+
 #### The code is borrowed from [[OTK]](https://github.com/claying/OTK) and [[view-GCN]](https://github.com/weixmath/view-GCN).
